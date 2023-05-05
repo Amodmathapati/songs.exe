@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body{
+
+    background-color: antiquewhite;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ /* min-height: 55vh; */
+
+}
+
+.brand img{
+     
+     height: 35px;
+     margin-right: 5px;
+     margin-left:1px
+     /* display: flex; */
+     /* width:50px; */
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(27, 24, 24);
+    height:65px;
+    color:white;
+    align-items: center;
+    justify-content:flex-start;
+    height:50px;
+
+    /* padding-left:10px; */
+
+}
+
+.brand{
+  
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+    /* margin-left: 10px; */
+}
+
+nav ul li{
+    margin-left:10px;
+    cursor:pointer;
+}
+
+.bottom{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(5, 5, 8);
+    /* margin-top: 540px; */
+    /* position:sticky; */
+    /* bottom:0; */
+    height:65px;
+    color:white;
+    flex-direction: column;
+
+}
+
+.progress_bar{
+
+   width:90vw;
+   cursor: pointer;
+
+}
+
+.icons{
+
+  margin-top: 10px;
+  cursor:pointer;
+}
+
+.icon{
+
+    padding-left: 10px;
+    color:white;
+}
+
+.container{
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    min-height: 72vh;
+    width:70%;
+    margin:23px auto;
+    padding:10px;
+    background-image: url("imgs/bg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    background-size: 845px;
+    background-position: 115px 0px;
+    position:relative;
+
+    /* flex-shrink: 1; */
+}
+
+.songlist{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding:5px;
+    margin-left: 15px;
+    width:330px;
+    height:350px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.song{
+    
+    display: flex;
+    /* align-items:flex-start; */
+    color:rgb(0, 0, 0);
+    background-color: rgb(233, 204, 204);
+    margin-bottom: 8px;
+    width:300px;
+    justify-content: center;
+    height:25px;
+    font-size: 8px;
+    border-radius: 10px;
+    margin-bottom:15px;
+
+}
+
+.song img{
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 2px;
+    cursor:pointer;
+    
+}
+
+
+.song-icon{
+
+    margin-left: 25px;
+    padding-top: 3px;
+
+}
+
+.duration i{
+    cursor:pointer;
+}
+
+.song:hover{
+    background-color: white;
+
+}
+
+.playing{
+   position:absolute;
+   left:0px;
+   bottom:-4px;
+}
+
+.playing img{
+    height:20px;
+    width:100px;
+    opacity:0;
+}
